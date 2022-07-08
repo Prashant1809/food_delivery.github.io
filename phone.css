@@ -1,0 +1,48 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#home{
+   height: 450px;
+   flex-direction: column;
+}
+#home::before{
+    height: 668px;
+
+}
+#services{
+  display: flex;
+  flex-direction: column;
+}
+#services .box{
+ margin: 10px;
+ /* padding: 2px 20px; */
+}
+#services .box img {
+    height: 117px;
+    margin: auto;
+    display: block;
+}
+#clients{
+   flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+    padding: 4px;
+
+}
+/* ----------------------------------------- ------------------ */
+/* #ticket{
+    display: flex;
+    flex-direction: column;
+}
+#ticket .box{
+    
+} */
+/* ---------------------------------------------------------------- */
+
+/* .h-primary{
+    font-size: 26px;
+} */
